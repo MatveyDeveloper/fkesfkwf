@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebStudio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header, footer {
+      background-color: #f5f5f5;
+      padding: 20px 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .features, .team, .works {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .feature, .team-member, .work-item {
+      flex: 1 1 calc(25% - 20px);
+      background-color: #eaeaea;
+      padding: 15px;
+      text-align: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="nav">
+        <h1>WebStudio</h1>
+        <p>Портфолiо</p>
+        <p>Контакти</p>
+        <p>info@webstudio.com</p>
+        <p>+380 123 456 789</p>
+      </div>
+      <h1>ЕФЕКТИВНi РiШЕННЯ ДЛЯ ВАШОГО БiЗНЕСУ</h1>
+      <button>Замовити послугу</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <div class="features">
+        <div class="feature">
+          <h1>УВАГА ДО ДЕТАЛЕЙ</h1>
+          <p>Лiнь переписуати</p>
+        </div>
+        <div class="feature">
+          <h1>Пунктуальнiсть</h1>
+          <p>Лiнь переписуати</p>
+        </div>
+        <div class="feature">
+          <h1>Планування</h1>
+          <p>Лiнь переписуати</p>
+        </div>
+        <div class="feature">
+          <h1>Сучасни Технологии</h1>
+          <p>Лiнь переписуати</p>
+        </div>
+      </div>
+
+      <h1>Чим Ми займемося?</h1>
+      <div class="works">
+        <div class="work-item"><img src="#" alt="WORKS"></div>
+        <div class="work-item"><img src="#" alt="WORKS2"></div>
+        <div class="work-item"><img src="#" alt="WORKS3"></div>
+      </div>
+
+      <h1>Наша команда</h1>
+      <div class="team">
+        <div class="team-member">
+          <img src="#" alt="TEAM">
+          <h1>Igor Deamemnoko</h1>
+        </div>
+        <div class="team-member">
+          <img src="#" alt="TEAM2">
+          <h1>Olha Repina</h1>
+        </div>
+        <div class="team-member">
+          <img src="#" alt="TEAM3">
+          <h1>Mikola Tarasov</h1>
+        </div>
+        <div class="team-member">
+          <img src="#" alt="TEAM4">
+          <h1>Mihailo Ermakov</h1>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h1>Webstudio</h1>
+      <p>м. Київ пр-т лесi украiнки 26</p>
+      <p>info@devstudio.com</p>
+      <p>+380 123 456 789</p>
+    </div>
+  </footer>
+
+</body>
+</html>
